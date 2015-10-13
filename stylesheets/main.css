@@ -8,6 +8,11 @@ body {
   padding: 50px;
   background: url(../images/colour_game_logo_small.png) no-repeat 0 0;
 }
+.scoreboard{
+  width: 500px;
+  margin: 0 auto;
+  float: right;
+}
 #container{
 background: url(../images/bckground.png);  
 }
@@ -18,7 +23,9 @@ table {
   border-collapse: separate;
   border: 8px solid hotpink;  
 }
-tr { 
+h2 { 
+  font-family: CenturyGothic;
+  color: white;
 
 }
 td {
