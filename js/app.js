@@ -12,24 +12,20 @@ $(function(){
   var computerScore = 0;
   var quantityOfClicks = 0;
   
-var colours = ["blue","green","yellow","pink","lime","orange","black","purple","cyan","firebrick","deepskyblue","gold","midnightblue","orangered","darkgreen","maroon","hotpink","palegreen","tan","deeppink","blueviolet","dimgray","crimson","darkorange"]
-var cellsPerLevel = [2,4,6,8,10]
+var colours = ["red","blue","green","yellow","pink","lime","orange","black","purple","cyan","firebrick","deepskyblue","gold","midnightblue","orangered","darkgreen","maroon","hotpink","palegreen","tan","deeppink","blueviolet","dimgray","crimson","darkorange"]
+var cellsPerLevel = [2,3,4,5,6]
 var currentLevelcells = [];
 var currentLevelClickedCells = [];
 
 function resetLevels(){
-  cellsPerLevel = [2,4,6,8,10]
+  cellsPerLevel = [2,3,4,5,6]
 }
 
 function shuffle(array) {
   var counter = array.length, temp, index;
-  // While there are elements in the array
   while (counter > 0) {
-    // Pick a random index
     index = Math.floor(Math.random() * counter);
-    // Decrease counter by 1
     counter--;
-    // And swap the last element with it
     temp = array[counter];
     array[counter] = array[index];
     array[index] = temp;
@@ -65,8 +61,7 @@ function listenToClicksOnCells(){
     // we need to assign tdColor to the class attribute of "this"
 
     currentLevelClickedCells.push(tdColor)
-
-    if(quantityOfClicks == currentLevelcells.length){
+  if(quantityOfClicks == currentLevelcells.length){
       if(!checkWin()){ // lost
         resetLevels()
       } 
@@ -117,6 +112,7 @@ function checkWin(){
     return true;
   }else{
     alert("LOOSER")
+    location.reload();
     return false;
   }
 }
