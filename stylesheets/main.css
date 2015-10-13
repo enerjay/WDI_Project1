@@ -1,0 +1,61 @@
+body {
+  background-color: black;  
+}
+#logo {
+  text-decoration:none;
+  height: 100px;
+  margin: 50px;
+  padding: 50px;
+  background: url(../images/colour_game_logo_small.png) no-repeat 0 0;
+}
+#container{
+background: url(../images/bckground.png);  
+}
+table {
+  margin: 30px auto;
+  background-color: white;
+  border-spacing: 20px;
+  border-collapse: separate;
+  border: 8px solid hotpink;  
+}
+tr { 
+
+}
+td {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.red{ background-color: red;}
+.blue { background-color: blue;}
+.green{ background-color: green;}
+.yellow { background-color: yellow;}
+.pink{ background-color: pink;}
+.lime{ background-color: lime;}
+.orange{ background-color: orange;}
+.black{ background-color: black;}
+.purple{ background-color: purple;}
+.cyan{ background-color: cyan;}
+.firebrick{ background-color: firebrick;}
+.deepskyblue{ background-color: deepskyblue;}
+.gold{ background-color: gold;}
+.midnightblue{ background-color: midnightblue;}
+.orangered{ background-color:orangered;}
+.darkgreen{ background-color: darkgreen;}
+.maroon{ background-color: maroon;}
+.hotpink{ background-color: hotpink;}
+.palegreen{ background-color: palegreen;}
+.tan{ background-color:tan;}
+.deeppink{ background-color: deeppink;}
+.blueviolet{ background-color: blueviolet;}
+.dimgray{background-color: dimgray;}
+.crimson{ background-color: crimson;}
+.darkorange{ background-color:darkorange;}
+
+
+td:hover {
+  curser: pointer;
+  
+}
