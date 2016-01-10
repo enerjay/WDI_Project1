@@ -40,5 +40,5 @@ The game will be very colourful visually however the grid will be on a white bac
 - CSS3
 - logos and artwork created in Adobe Illustrator 
 
-
+![image]https://github.com/enerjay/WDI_Project1/blob/master/images/screen.png
 
