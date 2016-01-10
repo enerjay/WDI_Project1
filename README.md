@@ -2,6 +2,8 @@
 
 ![image](https://github.com/enerjay/WDI_Project1/blob/master/images/colour_game_logo_small.png)
 
+http://calm-gorge-4445.herokuapp.com/
+
 I want to build a game that is completely visual where the computer displays a few different circles in different colours in a sequence and gives a player a few seconds to memorise. Then the player has to click the grid showing the exact position of the circles and the exact order.
 
 ####order of play
